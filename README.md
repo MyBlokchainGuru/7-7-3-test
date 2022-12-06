@@ -1,2 +1,2 @@
 # 7-7-3-test
-testnet version of 773 app
+The 773 app is a curated local business "deals" app, where businesses sign up and instead of a membership fee annually, they pay once and only have to pay again if they want changes to be made to their business page. Application is completely hosted on the blockchain, business owners sign into their management page with a web 3 wallet, verifying ownership of an "admin" NFT of their business (sign in token). Once they sign in with their token they are brought to a form where they can submit changes to information about their business, add new owners, and submit changes to be made on their 773 profile.
