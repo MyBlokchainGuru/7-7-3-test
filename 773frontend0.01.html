@@ -1,0 +1,30 @@
+<script>
+  (function(d, s) {
+    var js = d.createElement(s),
+      sc = d.getElementsByTagName(s)[0];
+    js.src = "https://paywall.unlock-protocol.com/static/unlock.latest.min.js";
+    sc.parentNode.insertBefore(js, sc);
+  }(document, "script"));
+</script>
+​
+<script>
+  var unlockProtocolConfig = {
+    "network": 5, // Network ID (1 is for mainnet, 4 for rinkeby, 100 for xDai, etc)  
+    "locks": {
+      "0x39cfaa911fbbdc673f4bafca504b51dae1fea260": {
+        "name": "773test"
+      }
+    },
+    "icon": "https://unlock-protocol.com/static/images/svg/unlock-word-mark.svg",
+    "callToAction": {
+      "default": "Please sign in to access your personal business page."
+    }
+  }
+</script>
+​
+<h1>773 Business Mgmt Page</h1>
+<p class="unlock-content locked">Please sign in and verify to continue 🔒 </p>
+<p class="unlock-content unlocked">Sign in successful! You are now being forwarded to your management page. 🎉</p>
+<p class="unlock-content locked" onclick="window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()"><button class="button">
+    Unlock!
+  </button></p>
